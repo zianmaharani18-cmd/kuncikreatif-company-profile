@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KunciKreatif | Gantungan Kunci Custom & Unik</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <i class="fa-solid fa-key"></i> Kunci<span>Kreatif</span>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="https://id.shp.ee/xk12aTHg" target="_blank" class="btn-shopee-nav">
+            <i class="fa-solid fa-bag-shopping"></i> Shopee
+          </a>
+        </li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME / HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="badge">Handmade & Custom Craft</span>
+        <h1>Gantungan Kunci Unik untuk Setiap Momen Spesialmu</h1>
+        <p>KunciKreatif menghadirkan gantungan kunci berkualitas tinggi dengan desain kreatif, estetik, dan bisa di-custom sesuai karaktermu.</p>
+        <div class="hero-btns">
+          <a href="https://id.shp.ee/xk12aTHg" target="_blank" class="btn btn-primary">
+            <i class="fa-solid fa-cart-shopping"></i> Beli Sekarang di Shopee
+          </a>
+          <a href="#products" class="btn btn-secondary">Lihat Katalog</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80" alt="KunciKreatif Showcase">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about section-padding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Tentang Kami</h2>
+        <p>Mengenal KunciKreatif lebih dekat</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80" alt="Proses Pembuatan KunciKreatif">
+        </div>
+        <div class="about-text">
+          <h3>Satu Sentuhan Kecil, Beribu Cerita</h3>
+          <p>Berawal dari kreasi lokal di Pamulang Barat, KunciKreatif tumbuh menjadi UMKM yang berfokus pada pembuatan aksesoris gantungan kunci handmade berkualitas. Kami percaya bahwa gantungan kunci bukan sekadar pelengkap, melainkan bentuk ekspresi diri dan pengingat momen berharga.</p>
+          <div class="features-grid">
+            <div class="feature-card">
+              <i class="fa-solid fa-palette"></i>
+              <h4>Desain Custom</h4>
+              <p>Bisa cetak nama, ilustrasi, hingga bentuk akrilik custom.</p>
+            </div>
+            <div class="feature-card">
+              <i class="fa-solid fa-gem"></i>
+              <h4>Bahan Premium</h4>
+              <p>Menggunakan resin dan akrilik tebal tahan gores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS SECTION -->
+  <section id="products" class="products section-padding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Katalog Produk</h2>
+        <p>Pilih kategori gantungan kunci favoritmu</p>
+      </div>
+
+      <!-- JavaScript Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="akrilik">Akrilik Custom</button>
+        <button class="filter-btn" data-filter="resin">Resin Estetik</button>
+        <button class="filter-btn" data-filter="rajut">Rajut Handmade</button>
+      </div>
+
+      <div class="product-grid">
+        <!-- Product Item 1 -->
+        <div class="product-card" data-category="akrilik">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&w=500&q=80" alt="Gantungan Kunci Akrilik Custom">
+            <span class="tag">Bestseller</span>
+          </div>
+          <div class="product-info">
+            <h3>Akrilik Nama Custom</h3>
+            <p>Gantungan kunci akrilik bening cetak UV dengan grafir nama presisi.</p>
+            <div class="price">Rp 15.000</div>
+            <a href="https://id.shp.ee/xk12aTHg" target="_blank" class="btn-buy">
+              <i class="fa-solid fa-cart-shopping"></i> Beli di Shopee
+            </a>
+          </div>
+        </div>
+
+        <!-- Product Item 2 -->
+        <div class="product-card" data-category="resin">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1611591475878-01306371cf76?auto=format&fit=crop&w=500&q=80" alt="Gantungan Kunci Resin Bunga">
+          </div>
+          <div class="product-info">
+            <h3>Resin Dried Flower</h3>
+            <p>Resin bening dengan paduan bunga kering asli yang estetik dan tahan lama.</p>
+            <div class="price">Rp 22.000</div>
+            <a href="https://id.shp.ee/xk12aTHg" target="_blank" class="btn-buy">
+              <i class="fa-solid fa-cart-shopping"></i> Beli di Shopee
+            </a>
+          </div>
+        </div>
+
+        <!-- Product Item 3 -->
+        <div class="product-card" data-category="rajut">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=500&q=80" alt="Gantungan Kunci Rajut Boneka">
+          </div>
+          <div class="product-info">
+            <h3>Rajut Boneka Mini</h3>
+            <p>Amigurumi rajut handmade berkarakter lucu dari benang katun halus.</p>
+            <div class="price">Rp 25.000</div>
+            <a href="https://id.shp.ee/xk12aTHg" target="_blank" class="btn-buy">
+              <i class="fa-solid fa-cart-shopping"></i> Beli di Shopee
+            </a>
+          </div>
+        </div>
+
+        <!-- Product Item 4 -->
+        <div class="product-card" data-category="akrilik">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=500&q=80" alt="Gantungan Kunci Spotify Code">
+          </div>
+          <div class="product-info">
+            <h3>Akrilik Spotify Code</h3>
+            <p>Cetak lagu favoritmu lengkap dengan scannable barcode Spotify.</p>
+            <div class="price">Rp 18.000</div>
+            <a href="https://id.shp.ee/xk12aTHg" target="_blank" class="btn-buy">
+              <i class="fa-solid fa-cart-shopping"></i> Beli di Shopee
+            </a>
+          </div>
+        </div>
+
+        <!-- Product Item 5 -->
+        <div class="product-card" data-category="resin">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=500&q=80" alt="Gantungan Kunci Resin Inisial">
+          </div>
+          <div class="product-info">
+            <h3>Resin Huruf Inisial</h3>
+            <p>Desain alfabet huruf A-Z dengan hiasan gold foil mewah di dalamnya.</p>
+            <div class="price">Rp 20.000</div>
+            <a href="https://id.shp.ee/xk12aTHg" target="_blank" class="btn-buy">
+              <i class="fa-solid fa-cart-shopping"></i> Beli di Shopee
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="gallery section-padding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Galeri Kegiatan & Produk</h2>
+        <p>Dokumentasi hasil karya dan kesibukan workshop KunciKreatif</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" onclick="openModal(this)">
+          <img src="https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&w=600&q=80" alt="Detail Akrilik">
+          <div class="overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item" onclick="openModal(this)">
+          <img src="https://images.unsplash.com/photo-1611591475878-01306371cf76?auto=format&fit=crop&w=600&q=80" alt="Resin Crafting">
+          <div class="overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item" onclick="openModal(this)">
+          <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80" alt="Workshop Space">
+          <div class="overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item" onclick="openModal(this)">
+          <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80" alt="Packing Order">
+          <div class="overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX MODAL (JavaScript Interactive) -->
+  <div id="imageModal" class="modal">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="imgModalSrc" alt="Gallery Modal">
+    <div id="caption"></div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact section-padding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Hubungi Kami</h2>
+        <p>Pertanyaan custom atau pemesanan khusus? Mari berdiskusi!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Alamat Workshop</h4>
+              <p>Pamulang Barat, Tangerang Selatan, Banten</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <h4>Jam Operasional</h4>
+              <p>Senin – Jumat: 09.00 – 18.00 WIB</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp Chat</h4>
+              <p><a href="https://wa.me/6283165124549" target="_blank">+62 831-6512-4549</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-store"></i>
+            <div>
+              <h4>Official Marketplace</h4>
+              <p><a href="https://id.shp.ee/xk12aTHg" target="_blank">Shopee: KunciKreatif Official</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Form -->
+        <form class="contact-form" id="contactForm">
+          <h3>Kirim Pesan Custom</h3>
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Nama Anda" required>
+          </div>
+          <div class="form-group">
+            <input type="text" id="phone" placeholder="Nomor WhatsApp" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="4" placeholder="Detail pesanan custom atau pertanyaan..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fa-brands fa-whatsapp"></i> Kirim via WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2026 KunciKreatif. Project UTS & UAS Digitalisasi UMKM.</p>
+      <div class="social-links">
+        <a href="https://wa.me/6283165124549" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://id.shp.ee/xk12aTHg" target="_blank"><i class="fa-solid fa-bag-shopping"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
